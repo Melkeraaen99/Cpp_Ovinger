@@ -34,30 +34,6 @@ void menu(){
 			win.wait_for_close();
 			break;
 		}
-
-		case 3:{
-			break;
-		}
-
-		case 4:{
-			break;
-		}
-
-		case 5:{
-			break;
-		}
-
-		case 6:{
-			break;
-		}
-
-		case 7:{
-			break;
-		}
-
-		case 8:{
-			break;
-		}
 	}
 }
 
@@ -67,7 +43,7 @@ int main(){
 
 	srand(unsigned(time(nullptr)));
 
-	string melding{"Velg funksjon som skal kjøre: (0-X) \n0: Avslutt \n1: testAnimal \n2: emoji_main \n3:  \n4:  \n5:  \n6:  \n7:  \n8: "};
+	string melding{"Velg funksjon som skal kjøre: (0-X) \n0: Avslutt \n1: testAnimal \n2: emoji_main "};
 
 	bool keepLooping = true;
 	while (keepLooping){
